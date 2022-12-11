@@ -1,0 +1,93 @@
+    /* Default */
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    /* Navigation */
+    #navbar {
+      background-color: rgb(135, 219, 219);
+      border-radius: 10px;
+      font-family: "Kanit", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    #navbar h1 {
+      margin: 20px;
+      font-size: 2.5rem;
+    }
+
+    .home {
+      display: flex;
+      font-size: 1.1rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    .home a {
+      display: flex;
+      color: black;
+      text-decoration: none;
+      margin: -61px 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    /* Heading */
+    .heading h1 {
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      text-transform: uppercase;
+      font-size: 5rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    .heading h2 {
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    /* Table */
+    .tt {
+      display: flex;
+      justify-content: center;
+    }
+    .tt table {
+        width: 90%;
+    }
+    .tt table th {
+        height: 70px;
+    }
+    
+    .tt table td{
+        text-align: center;
+    }
+
+    /* Footer */
+    .nxt {
+      float: right;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+    .nxt:hover {
+      background-color: rgb(135, 219, 219);
+    }
+    /* Thanx */
+    .thnx {
+      background-color: rgb(135, 219, 219);
+      font-family: "Kanit", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    .thnx p1 {
+      font-size: 5rem;
+      margin: 80px;
+    }
+  

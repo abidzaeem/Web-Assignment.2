@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Assignment - 1 | Time Table</title>
+  </head>
+  <style>
+    /* Default */
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    /* Navigation */
+    #navbar {
+      background-color: rgb(135, 219, 219);
+      border-radius: 10px;
+      font-family: "Kanit", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    #navbar h1 {
+      margin: 20px;
+      font-size: 2.5rem;
+    }
+
+    .home {
+      display: flex;
+      font-size: 1.1rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    .home a {
+      display: flex;
+      color: black;
+      text-decoration: none;
+      margin: -61px 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    /* Heading */
+    .heading h1 {
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      text-transform: uppercase;
+      font-size: 5rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    .heading h2 {
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    /* Table */
+    .tt {
+      display: flex;
+      justify-content: center;
+    }
+    .tt table {
+        width: 90%;
+    }
+    .tt table th {
+        height: 70px;
+    }
+    
+    .tt table td{
+        text-align: center;
+    }
+
+    /* Footer */
+    .nxt {
+      float: right;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+    .nxt:hover {
+      background-color: rgb(135, 219, 219);
+    }
+    /* Thanx */
+    .thnx {
+      background-color: rgb(135, 219, 219);
+      font-family: "Kanit", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    .thnx p1 {
+      font-size: 5rem;
+      margin: 80px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav id="navbar">
+        <h1>QUESTION.3</h1>
+      </nav>
+      <div class="home">
+        <a href="index.html">HOME</a>
+      </div>
+    </header>
+    <main>
+      <div class="heading">
+        <h1><u>Form</u></h1>
+        <h2><u>BCA Group - B</u></h2>
+      </div>
+      <section>
+        <form>  
+          
+          <label> Firstname </label>         
+          <input type="text" name="firstname" size="15"/> <br> <br>  
+          <label> Middlename: </label>     
+          <input type="text" name="middlename" size="15"/> <br> <br>  
+          <label> Lastname: </label>         
+          <input type="text" name="lastname" size="15"/> <br> <br>  
+            
+          <label>   
+          Course :  
+          </label>   
+          <select>  
+          <option value="Course">Course</option>  
+          <option value="BCA">BCA</option>  
+          <option value="BBA">BBA</option>  
+          <option value="B.Tech">B.Tech</option>  
+          <option value="MBA">MBA</option>  
+          <option value="MCA">MCA</option>  
+          <option value="M.Tech">M.Tech</option>  
+          </select>  
+            
+          <br>  
+          <br>  
+          <label>   
+          Gender :  
+          </label><br>  
+          <input type="radio" name="male"/> Male <br>  
+          <input type="radio" name="female"/> Female <br>  
+          <input type="radio" name="other"/> Other  
+          <br>  
+          <br>  
+            
+          <label>   
+          Phone :  
+          </label>  
+          <input type="text" name="country code"  value="+91" size="2"/>   
+          <input type="text" name="phone" size="10"/> <br> <br>  
+          Address  
+          <br>  
+          <textarea cols="80" rows="5" value="address">  
+          </textarea>  
+          <br> <br>  
+          Email:  
+          <input type="email" id="email" name="email"/> <br>    
+          <br> <br> 
+          <input type="button" value="Submit"/>  
+          </form>  
+        <br /><br /><br /><br />
+      </section>
+      <a class="nxt" href="Ques4.html"
+          ><p>
+            <i><u>Go To The Next Question</u></i>
+          </p></a
+        >
+      <br />
+    </main>
+    <footer>
+      <div class="thnx">
+        <p1>Thank You!</p1>
+      </div>
+    </footer>
+  </body>
+</html>

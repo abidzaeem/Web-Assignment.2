@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kanit:wght@300&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <title>ASSIGNMENT - 2</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Default */
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Chakra Petch", sans-serif;
+        font-family: "Kanit", sans-serif;
+        font-family: "Michroma", sans-serif;
+      }
+
+      /* Navigation */
+      nav {
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        padding: 50px 90px;
+        border-radius: 8px;
+        background: rgb(140, 15, 140);
+      }
+
+      nav #logo {
+        margin: -16px -29px;
+        float: left;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: whitesmoke;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        float: right;
+      }
+
+      nav ul li a {
+        font-size: 1rem;
+        display: block;
+        text-decoration: none;
+        list-style: none;
+        margin: -9px 45px;
+        text-transform: uppercase;
+        color: whitesmoke;
+      }
+
+      nav ul li a:hover {
+        color: white;
+        background-color: rgb(140, 15, 140);
+        border-radius: 5px;
+      }
+
+      /* BGimage */
+      main .bgimage a {
+        justify-content: center;
+        display: flex;
+        height: 250px;
+        margin-top: 30px;
+      }
+
+      .bgimage a img {
+        border-radius: 360px;
+      }
+
+      /* Question */
+      .ques {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 50px;
+        color: whitesmoke;
+        position: relative;
+      }
+
+      .ques h1 {
+        margin: 0px 400px;
+        background: rgb(140, 15, 140);
+        border-radius: 5px;
+      }
+
+      /* QuestionS */
+      .q1,
+      .q2,
+      .q3,
+      .q4,
+      .q5 {
+        border: 3px solid rgb(140, 15, 140);
+        box-shadow: 8px 7px rgb(140, 15, 140);
+        margin: 0px 100px;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+      }
+      .q1 a,
+      .q2 a,
+      .q3 a,
+      .q4 a,
+      .q5 a {
+        color: black;
+        text-decoration: none;
+      }
+
+      /* Button */
+      .btn button {
+        background-color: rgb(140, 15, 140);
+        color: white;
+        float: right;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        padding-right: 4px;
+        align-content: center;
+        cursor: pointer;
+      }
+
+      /* Footer */
+      footer {
+        background-color: rgb(140, 15, 140);
+      }
+
+      .ftrr {
+        text-align: center;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .ftrr h1 {
+        font-size: 2rem;
+      }
+
+      .ftrr p1 {
+        font-size: 1.5rem;
+      }
+
+       p2 {
+        float: right;
+        color: whitesmoke;
+        margin-bottom: 10px;
+        padding-right: 15px;
+      }
+
+      #copyright {
+        color: whitesmoke;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--For Scrolling-->
+    <header>
+      <nav>
+        <div id="logo">Assignment-2</div>
+        <ul>
+          <li><a href="https://abidzaeem.github.io/University-Project/">Home</a></li>
+          <li>
+            <a href="https://iul.ac.in/Program/UG/UG_BCA.aspx" target="_blank"
+              >Department</a
+            >
+          </li>
+          <li>
+            <a href="https://www.iul.ac.in/" target="_blank">University</a>
+          </li>
+          <li>
+            <a href="https://linktr.ee/abid_zaeem" target="_blank">About Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="bgimage">
+        <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank"
+          ><img src="webBg.jpeg"
+        /></a>
+      </div>
+      <section>
+        <div class="ques">
+          <h1>Questions</h1>
+        </div>
+        <br /><br /><br />
+
+        <div class="q1">
+          <a href="Ques1.html"
+            ><p>
+              1.&#20;&#20;Apply in-line CSS to change colors of certain text portion, bold, underline and italics certain words in your HTML web page. Also change background color of each paragraph using in-line CSS.
+            </p></a
+          >
+        </div>
+        <br /><br />
+
+        <div class="q2">
+          <a href="Ques2.html"
+            ><p>
+              2.&#20;&#20;Write all the above styling in CSS in different file (.css) and link it to your webpage such that changes made in CSS file are immediately reflected on the page. Group paragraphs into single class and add styling information to the class in CSS.
+            </p></a
+          >
+        </div>
+        <br /><br />
+
+        <div class="q3">
+          <a href="Ques3.html"
+            ><p>3.&#20;&#20;Create a registration form. Put validation checks on values entered by the user using JavaScript. Create a simple form to submit user input like his name, age, address and favorite subject, movie and singer. Add few form elements such as radio buttons, check boxes and password field. Add a submit button at last. Create a new page which is redirected on clicking Submit button.</p></a
+          >
+        </div>
+        <br /><br />
+      </section>
+      <a href="#top" class="btn">
+        <button>Top</button>
+        <br /><br />
+      </a>
+    </main>
+    <footer>
+      <br />
+      <div class="ftrr">
+        <h1>Department Of Computer Application</h1>
+        <br />
+        <p1> CA304&#20; - &#20;Web&#20; Designing&#20; Concepts </p1>
+      </div>
+      <br />
+      <p2><u>Prof.&#20; Ms. Nashra Javed</u></p2>
+      <br /><br /><br />
+      <div id="copyright"><p>© Copyright</p></div>
+    </footer>
+  </body>
+</html>
